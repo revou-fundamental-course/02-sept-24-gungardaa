@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#luas-segitiga, #keliling-segitiga {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#luas-form, #keliling-form {
+    margin-bottom: 20px;
+}
+
+#luas-form label, #keliling-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#luas-form input[type="number"], #keliling-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#luas-result, #keliling-result {
+    margin-top: 20px;
+}
+
+#luas-value, #keliling-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
